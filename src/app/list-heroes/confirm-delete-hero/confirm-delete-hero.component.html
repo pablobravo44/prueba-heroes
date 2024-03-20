@@ -1,0 +1,8 @@
+<h1 mat-dialog-title class="text-center">Confirmar Eliminación</h1>
+<div mat-dialog-content>
+  <p class="text-center">¿Estás seguro de que quieres eliminar este héroe?</p>
+</div>
+<div mat-dialog-actions class="justify-content-center text-center">
+  <button mat-button (click)="onNoClick()">Cancelar</button>
+  <button mat-button [mat-dialog-close]="true" cdkFocusInitial>Eliminar</button>
+</div>

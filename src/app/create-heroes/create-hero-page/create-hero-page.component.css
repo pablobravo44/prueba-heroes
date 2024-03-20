@@ -1,0 +1,6 @@
+mat-error {
+    color: #f44336; /* Rojo de error Material */
+}
+.card-img-top{
+    max-width: 500px;
+}

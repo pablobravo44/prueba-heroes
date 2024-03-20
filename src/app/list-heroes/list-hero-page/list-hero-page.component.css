@@ -1,0 +1,22 @@
+.grid-container{
+    width: 80%;
+    margin-top: 8rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+app-hero-card{
+    margin-bottom: 2rem;
+}
+.new-btn{
+    margin-left: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .new-btn{
+        margin-left: 0;
+    }
+    .grid-container{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
