@@ -26,6 +26,7 @@ export class CreateHeroPageComponent {
   }
 
   onFileSelected(event: Event) {
+    this.loadingService.show();
     this.imageUploading = true;
     const input = event.target as HTMLInputElement;
     this.heroService.uploadImage(input.files![0]).then((data) => {
@@ -33,6 +34,7 @@ export class CreateHeroPageComponent {
         image: data
       });
       this.imageUploading = false;
+      this.loadingService.hide();
     });
     input.value = '';
   }
