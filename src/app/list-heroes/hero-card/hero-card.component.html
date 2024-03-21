@@ -6,8 +6,8 @@
         <p class="card-text">{{hero.description}}</p>
       </div>
       <div class="d-flex justify-content-center gap-3 mb-3">
-        <button mat-raised-button color="primary" [routerLink]="['/edit-hero', hero.id]">Editar</button>
-        <button mat-raised-button color="warn" (click)="openConfirmDeleteDialog(hero.id)">Borrar</button>
+        <button mat-raised-button color="primary" [routerLink]="['/edit-hero', hero.id]"><i class="fa-solid fa-pen-to-square btn-icon"></i>Editar</button>
+        <button mat-raised-button color="warn" (click)="openConfirmDeleteDialog(hero.id)"><i class="fa-solid fa-trash btn-icon"></i>Borrar</button>
       </div>
     </div>
 </div>

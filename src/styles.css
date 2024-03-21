@@ -12,3 +12,6 @@ app-root {
     flex: 1;
     padding-bottom: 100px;
 }
+.btn-icon{
+    margin-right: 0.2rem;
+}
